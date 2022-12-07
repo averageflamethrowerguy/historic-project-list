@@ -2,6 +2,8 @@
 A list of projects that I've worked on. These projects are not all public.
 Projects are listed most-recent-first.
 
+
+
 ## ChungOS (Fall 2022)
 ### Please ask for access to this repository.
 This is a simple operating system for CS58 (Operating Systems) following the Yalnix spec, as modified by Professor Sean Smith. It is probably my most impressive academic project to date. I wrote approximately 8,000 lines of C for this project. It has the following features:
@@ -10,6 +12,9 @@ This is a simple operating system for CS58 (Operating Systems) following the Yal
 3. Handles process sycalls, such as `Fork`, `Exec`, `Wait`, `Exit`
 4. Implements communication and synchronization datastructures, such as pipes, locks, and cvars
 5. Handles communicating with a user via multiple terminals.
+
+
+
 
 ## YAME (Yet Another Maze Escaper) (Fall 2022)
 ### Repository is here: https://github.com/averageflamethrowerguy/cs69-final-project
@@ -20,6 +25,9 @@ This is a maze escaper for CS69.13 (Multirobot Systems). Several robots start in
 4. When a complete map is found, a connected traversal graph is generated with a feature-detection approach
 5. Robots can then escape the map using a Djisktra's-algorithm approach.
 
+
+
+
 ## MIDI Keyboard Converter (Summer 2022)
 ### Please ask for access to this repository.
 This is a MIDI keyboard converted for ENGS31 (Digital Electronics). When wired into a MIDI keyboard, this programs an FPGA to convert MIDI signals into the bits to drive an analog speaker. I wrote approximately 2,500 lines of VHDL for this project. It has the following components:
@@ -28,9 +36,15 @@ This is a MIDI keyboard converted for ENGS31 (Digital Electronics). When wired i
 3. Frequency Converter. Given a bit-value of a note, this module uses a lookup-table and a clock to sample voltages across a sine wave. This produces an oscillating voltage of the desired frequency.
 4. D-to-a Converter. This (confusingly named) module interfaces with an actual hardware d-to-a converter. The module simply sends bits one at a time to that module.
 
+
+
+
 ## Parallel Ray Tracer (Spring 2022)
 ### Repository is here: https://github.com/BoxianWang/cs77-final-project
 This is a parallel ray tracer for CS78 (Computer Graphics). By moving a naive C++ implementation into CUDA, using alternative data types, tree-based collision detection and unrolled supersampling, we were able to get an approximately 2000x improvement in ray tracing speed. For this project, I wrote around 3,000 lines of CUDA (though most of this was just converted C++).
+
+
+
 
 ## Simulated 32-bit CPU (Spring 2022)
 ### Please ask for access to this repository.
