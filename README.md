@@ -27,3 +27,21 @@ This is a MIDI keyboard converted for ENGS31 (Digital Electronics). When wired i
 2. Finite State Machine. This reads the bytestream from the Byte Reader to determine when start-note and stop-note commands are sent, and which notes to play.
 3. Frequency Converter. Given a bit-value of a note, this module uses a lookup-table and a clock to sample voltages across a sine wave. This produces an oscillating voltage of the desired frequency.
 4. D-to-a Converter. This (confusingly named) module interfaces with an actual hardware d-to-a converter. The module simply sends bits one at a time to that module.
+
+## Parallel Ray Tracer (Spring 2022)
+### Repository is here: https://github.com/BoxianWang/cs77-final-project
+This is a parallel ray tracer for CS78 (Computer Graphics). By moving a naive C++ implementation into CUDA, using alternative data types, tree-based collision detection and unrolled supersampling, we were able to get an approximately 2000x improvement in ray tracing speed. For this project, I wrote around 3,000 lines of CUDA (though most of this was just converted C++).
+
+## Simulated 32-bit CPU (Spring 2022)
+### Please ask for access to this repository.
+This is a simulated 32-bit CPU in Logisim. It uses the Y86 instruction set. The CPU does the following:
+1. Fetches instructions from memory
+2. Loads information into registers
+3. Performs any necessary ALU operations
+4. Reads and writes information into memory
+In order to do this, the CPU has a separate datapath and controller. The controller is programmed with state-control information from an Excel file. The datapath is programmed by loading a program (in hex) into the ROM at the right of the circuit.
+Custom test files (in both assembly and hex format) are included in the repository.
+
+
+
+
