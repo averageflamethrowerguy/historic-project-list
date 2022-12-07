@@ -3,7 +3,7 @@ A list of projects that I've worked on. These projects are not all public.
 Projects are listed most-recent-first.
 
 ## ChungOS (Fall 2022)
-This is a simple operating system for CS58 (Operating Systems) following the Yalnix spec, as modified by Professor Sean Smith. I wrote approximately 8,000 lines of C for this project. It has the following features:
+This is a simple operating system for CS58 (Operating Systems) following the Yalnix spec, as modified by Professor Sean Smith. It is probably my most impressive academic project to date. I wrote approximately 8,000 lines of C for this project. It has the following features:
 1. Boots, intializing virtual memory and loading an init program
 2. Handles switching between processes using traps (such as the clock trap)
 3. Handles process sycalls, such as `Fork`, `Exec`, `Wait`, `Exit`
