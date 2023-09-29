@@ -2,6 +2,20 @@
 A list of projects that I've worked on. These projects are not all public.
 Projects are listed most-recent-first.
 
+## Rizzly (Summer-Fall 2023)
+### Please ask for access to this repository.
+This dating app throws away many of the choices underlying modern dating apps like Tinder. Rather than swiping through seemingly infinite options, Rizzly presents you with a few better options. Rather than having the value of your profile determined by who swipes right on you, matchmaking is done via post-date reviews. Work on Rizzly was done as a personal project.
+1. Frontend is written in TypeScript, React and Redux
+2. Backend is a NodeJS express server
+3. Database is MongoDB
+
+## Wordwiz (Winter-Spring 2023)
+### Repository is here: https://github.com/dartmouth-cs98/project-23w-wordwiz
+This is a chrome extension written in React / Redux, designed to allow users to learn a foreign language while watching YouTube videos. It has the following features:
+1. Multiple subtitles, where mousing over the foreign subtitles displays the translation for the word
+2. Quizzes based on moused-over subtitles
+3. Recommendations for videos in the foreign language.
+
 ## ChungOS (Fall 2022)
 ### Please ask for access to this repository.
 This is a simple operating system for CS58 (Operating Systems) following the Yalnix spec, as modified by Professor Sean Smith. It is probably my most impressive academic project to date. I wrote approximately 10,000 lines of C for this project. It has the following features:
@@ -30,7 +44,7 @@ This is a MIDI keyboard converted for ENGS31 (Digital Electronics). When wired i
 
 ## Parallel Ray Tracer (Spring 2022)
 ### Repository is here: https://github.com/BoxianWang/cs77-final-project
-This is a parallel ray tracer for CS78 (Computer Graphics). By moving a naive C++ implementation into CUDA, using alternative data types, tree-based collision detection and unrolled supersampling, we were able to get an approximately 2000x improvement in ray tracing speed. For this project, I wrote around 3,000 lines of CUDA (though most of this was just converted C++).
+This is a parallel ray tracer for CS78 (Computer Graphics). By moving a naive C++ implementation into CUDA, using alternative data types, tree-based collision detection and unrolled supersampling, we were able to get an approximately 2000x improvement in ray tracing speed. For this project, I wrote around 3,000 lines of CUDA.
 
 ## Simulated 32-bit CPU (Spring 2022)
 ### Please ask for access to this repository.
